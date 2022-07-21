@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Модуль 5Б задание №4</title>
+<link rel="stylesheet" href="css/s5.css">
+</head>
+ <body>
+  <h1>
+    Модуль С5 задание №4
+  </h1>
+   <p>
+     Напишите код приложения, интерфейс которого представляет собой 2 input и кнопку.<br> В input можно ввести любое число. При клике на кнопку происходит следующее:
+   </p><div>
+   <p><ul>
+     <li> Если оба числа не попадают в диапазон от 100 до 300 или введено не число — <br>выводить ниже текст «одно из чисел вне диапазона от 100 до 300»;</li>
+     <li> Если числа попадают в диапазон от 100 до 300 — сделать запрос c помощью fetch по<br> URL https://picsum.photos/200/300, где первое число — ширина картинки, второе — высота.</li></p></div>
+    <div>
+     <p>После получения данных вывести ниже картинку на экран.</p>
+     <br></div>
+       <div>
+
+<input class="i1" placeholder="число от 100 до 300" type="text"  name="text" id="t1">&nbsp;
+<input class="i1" placeholder="число от 100 до 300" type="text"  name="text" id="t2">
+  <br><br>
+<button class="btn j-btn-request">Запрашиваем данные</button>
+         
+   </div>
+   <div id='test', class='aaa'></div>
+   <div id='r1'></div>
+   <div id='r2'></div>
+   <div id='r4'></div>
+   <P><img id="img" scr="">
+  <script src="js/c5.js"></script>
+ </body>
+</html>

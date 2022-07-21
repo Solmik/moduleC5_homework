@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/c5.css">
+
+
+    <title>C5_3</title>
+  </head>
+<body>
+<h1>Раздел С5.3 Задание № 3</h1>
+
+<p>
+  <div>
+Напишите код приложения, интерфейс которого представляет собой input и кнопку. В input можно ввести любое число. При клике на кнопку должно происходить следующее:
+
+        Если число не попадает в диапазон от 1 до 10 — выводить ниже текст «число вне диапазона от 1 до 10».
+        Если число попадает в диапазон от 1 до 10 — сделать запрос c помощью XHR по URL<br> https://picsum.photos/v2/list?limit=10, где get-параметр limit — это введённое число.
+</div>
+</p>
+
+  <div>
+
+<input placeholder="число от 1 до 10" type="text"  name="text" id="t1">
+
+<button class="btn j-btn-request">Запрашиваем данные</button>
+   </div>
+
+<P><div id='result'></div>
+<P><div id='r1'></div>
+<P><div id='r2'></div>
+<P><div id='r3'></div>
+<P><div id='r4'></div>
+<div class="result j-result">Здесь, возможно, будет результат запроса</div>
+<script src="js/c5.js"></script>
+  </body>
+</html>
